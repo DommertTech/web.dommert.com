@@ -27,10 +27,10 @@
 #transbox {
     margin: 30px;
     background-color: #ffffff;
-    border: 1px solid black;
-    height: 75%;
+    border: 1px solid gray;
     opacity: 0.9;
-    filter: alpha(opacity=90); /* For IE8 and earlier */
+    filter: alpha(opacity=90); /* For IE8 and earlier */ye
+    color: yellow;
 }
 
 #transbox p {
