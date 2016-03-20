@@ -1,4 +1,4 @@
-#topbanner, .herobanner {
+#imgback{
     position: relative;
     background: #5C97FF;
   
@@ -8,7 +8,7 @@
     height: 100%;
     z-index: 1;
     opacity: 0.6;
-    background-image: url("../../files/images/background-binary.jpg");
+    background-image: url("../../files/images/background-binary.jpg") !important;
     background-repeat: no-repeat;
     background-position: 50% 0;
     -ms-background-size: cover;
@@ -28,12 +28,13 @@
     margin: 30px;
     background-color: #ffffff;
     border: 1px solid black;
-    opacity: 0.4;
-    filter: alpha(opacity=40); /* For IE8 and earlier */
+    opacity: 0.9;
+    filter: alpha(opacity=90); /* For IE8 and earlier */
 }
 
 #transbox p {
     margin: 5%;
     font-weight: bold;
-    color: #000000;
+    color: black;
+
 }
